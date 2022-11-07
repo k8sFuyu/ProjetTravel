@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 60px;
+    font-weight: medium;
+    font-size: 10px;
+    font-family: sans-serif;
+    align-items:center;
+    color: #212832;
+}
+
+header ul{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    gap: 64px;
+}
+
+body{
+    background: url(bidule.png), url(biduleviolet.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+} 
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+
+
+.pres {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.pres > div{
+    width: 40%;
+}
+
+.logo{
+    margin: 40px 80px;
+    Width: 115px;
+    height: 34px;
+}
+
+
+
+.pres-upper{
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #DF6951;
+    margin-bottom: 24px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 84px;
+    font-family: serif ;
+    box-sizing: border-box;
+    display:flex;
+    justify-items:center;
+    margin-bottom: 30px;
+}
+
+.content{
+    font-weight: medium;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 34px;
+    color:#5E6282;
+}
+
+
+li a{
+    color: #212832;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: medium;
+    font-family: sans-serif;
+}
+
+.bord{
+    border: 1px solid #212832;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.dame{
+  display: flex;
+  justify-items:right;
+}
+
+
+.div-vectoren{
+    padding-right: 50px;
+}
+
+.div-button{
+    display: flex;
+    justify-content: left;
+  
+}
+.list-button{
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start; 
+    
+}
+
+.div-button .button-fom{
+    height: 70px;
+}
+
+
+.button-fom{
+    border: 1px solid #F1A501;
+    border-radius: 10px;
+    background-color:#F1A501;
+    color: #FFFFFF; 
+    font-style: medium;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left: 26px;
+    padding-right:26px;
+    padding-top: 22px;
+    text-decoration: none;
+    box-shadow: 5px 8px 12px rgba(241, 165, 1, 0.493);
+}
+
+
+.playbutton{
+    margin-left: 10px;
+}
+
+
+.button-pv{
+    text-decoration: none;
+    color: #686D77;
+    padding-top: 30px;
+
+}
+
+.div-category {
+
+}
+
+.category{
+    color:#5E6282;
+    font-size:18px ;
+    font-family:sans-serif;
+    font-style: medium;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wobs{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.quatreelements{
+    background: url(stars.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 120px;
+
+}
+
+
+.ul-list{
+   align-items: stretch;
+}
+
+.div-satellite {
+    margin-top: 110px;
+    padding: 20px;
+    width: 267px;
+    height: 317px;
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+    background-color:#ffffff;
+    color: #1E1D4C;
+    margin-left: 100px;
+
+}
+
+.satellite{
+    padding-left: 80px;
+}
+
+.cw{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.bw{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.avion{
+    padding-left: 80px;
+}
+
+.div-avion{
+    width: 267px;
+    height: 317px;
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+    background-color:#ffffff;
+    margin-left: 420px;
+    margin-top: -315px;
+    color: #1E1D4C;
+    box-shadow: 5px 2px 12px #b2bac9;
+
+}
+
+.desc-flights{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+    display: flex;
+    justify-content: center;
+    margin-top: -18px;
+}
+
+.el{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div-mic{
+    margin-top: -420px;
+    padding: 20px;
+    width: 267px;
+    height: 317px;
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+    background-color:#ffffff;
+    color: #1E1D4C;
+    margin-left: 740px;
+
+}
+
+.events{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.desc-mic{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.mic{
+   padding-left: 80px;
+}
+
+.div-ecrou{
+    padding: 20px;
+    width: 267px;
+    height: 317px;
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+    background-color:#ffffff;
+    margin-left: 1050px;
+    margin-top: -315px;
+    color: #1E1D4C;
+
+}
+
+.ecrou{
+    padding-left: 80px;
+}
+
+.desc-ecrou{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.custom{
+    font-style: medium ;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.squareorg{
+    margin-left: 400px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.page3{
+    margin-top: 200px;
+}
+
+.ts{
+    color:#5E6282;
+    font-size:18px ;
+    font-family:sans-serif;
+    font-style: medium;
+    display: flex;
+    justify-content: center;
+
+}
+
+.td{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+}
